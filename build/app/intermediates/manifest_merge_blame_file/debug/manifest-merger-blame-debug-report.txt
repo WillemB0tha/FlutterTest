@@ -1,0 +1,125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mobile.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\snipe\source\repos\AB.GradCoin.Mobile\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\snipe\source\repos\AB.GradCoin.Mobile\android\app\src\debug\AndroidManifest.xml:6:22-64
+15
+16    <queries>
+16-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:24:5-32:15
+17        <intent>
+17-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:25:9-31:18
+18            <action android:name="android.intent.action.VIEW" />
+18-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:26:13-65
+18-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:26:21-62
+19
+20            <category android:name="android.intent.category.BROWSABLE" />
+20-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:28:13-74
+20-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:28:23-71
+21
+22            <data android:scheme="https" />
+22-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:30:13-44
+22-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:30:19-41
+23        </intent>
+24    </queries>
+25
+26    <application
+27        android:name="android.app.Application"
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.6.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+31        android:label="mobile_app" >
+32        <activity
+33            android:name="com.example.mobile.app.MainActivity"
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35            android:exported="true"
+36            android:hardwareAccelerated="true"
+37            android:launchMode="singleTop"
+38            android:theme="@style/LaunchTheme"
+39            android:windowSoftInputMode="adjustResize" >
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+48                android:name="io.flutter.embedding.android.NormalTheme"
+49                android:resource="@style/NormalTheme" />
+50
+51            <intent-filter>
+52                <action android:name="android.intent.action.MAIN" />
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+62            android:name="flutterEmbedding"
+63            android:value="2" />
+64
+65        <uses-library
+65-->[androidx.window:window:1.0.0-beta04] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+66            android:name="androidx.window.extensions"
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+67            android:required="false" />
+67-->[androidx.window:window:1.0.0-beta04] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+68        <uses-library
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+69            android:name="androidx.window.sidecar"
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+70            android:required="false" />
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+71
+72        <activity
+72-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:35:9-39:77
+73            android:name="net.openid.appauth.AuthorizationManagementActivity"
+73-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:36:13-78
+74            android:exported="false"
+74-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:37:13-37
+75            android:launchMode="singleTask"
+75-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:38:13-44
+76            android:theme="@style/Theme.AppCompat.Translucent.NoTitleBar" />
+76-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:39:13-74
+77        <activity
+77-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:40:9-51:20
+78            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+78-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:41:13-74
+79            android:exported="true" >
+79-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:42:13-36
+80            <intent-filter>
+80-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:43:13-50:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:26:13-65
+81-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:26:21-62
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:46:17-76
+83-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:46:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:28:13-74
+84-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:28:23-71
+85
+86                <data android:scheme="com.gradcoin.mobile.app" />
+86-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:30:13-44
+86-->[net.openid:appauth:0.10.0] C:\Users\snipe\.gradle\caches\transforms-2\files-2.1\7d2c1cfa6a57a72a8fac080925646a5c\jetified-appauth-0.10.0\AndroidManifest.xml:30:19-41
+87            </intent-filter>
+88        </activity>
+89    </application>
+90
+91</manifest>

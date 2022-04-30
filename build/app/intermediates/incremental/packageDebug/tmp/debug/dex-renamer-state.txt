@@ -1,0 +1,4 @@
+#Thu Apr 28 21:42:03 CAT 2022
+base.0=C\:\\Users\\snipe\\source\\repos\\AB.GradCoin.Mobile\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

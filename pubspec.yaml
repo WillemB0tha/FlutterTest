@@ -1,0 +1,42 @@
+name: mobile_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.3
+  flutter_bloc: ^7.3.1
+  flutter_appauth: ^2.4.1
+  shared_preferences: ^2.0.13  
+  http: ^0.13.4
+  dio: ^4.0.6
+  flutter_spinkit: ^5.1.0
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.0.3
+  dropdown_button2: ^1.4.0
+  jwt_decode: ^0.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/sendCoinsIcon.svg
+    - assets/icons/backIcon.svg
+    - assets/icons/currencyIcon.svg
+    - assets/icons/historyIcon.svg
+    - assets/icons/
+    - assets/images/
